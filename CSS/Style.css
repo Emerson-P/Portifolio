@@ -9,21 +9,33 @@ body{
     background-color: #1B1B1B;
     width: 80%;
     display: flex;
-    border-radius: 10px;
+    border-radius: 3px;
     justify-content:space-evenly;
     margin: 0 ;
 }
-#header li a {
+#header li a, h1,h2,h3,h4,h5{
     color: white;
 }
 .name{
     width: 100%;
 }
-.div-center{
+.div-center,.div-center-name{
     display: flex;
     width: 100%;
     justify-content: center;
+}
+.div-center-name{
+    margin-top: 20%;
+}
+.div-center-name h1{
+    font-size: 70px;
+}
 
+.div-center-name div div{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #00e6e4;
+    border-radius: 5px;
 }
 /* #header li {
     justify-content: space-around;
