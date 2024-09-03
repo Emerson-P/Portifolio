@@ -5,6 +5,9 @@
 body{
     background-color: #000000;
 }
+::-webkit-scrollbar {
+    display: none;
+    }
 #header{
     background-color: #1B1B1B;
     width: 80%;
@@ -28,7 +31,7 @@ body{
 
 .div-center-name{
     margin-top: 20%;
-    margin-bottom: 23%;
+    margin-bottom: 21%;
 }
 .div-center-name h1{
     font-size: 70px;
@@ -51,13 +54,13 @@ body{
     border-radius: 4px;
 }
 .div-sobre{
-    width: 70%;
+    width: 90%;
     display: flex;
 }
 .text-collum,.text-row{
     border-radius: 4px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     padding: 20px;
 }
@@ -66,6 +69,7 @@ body{
     border: 2px solid #ff864a;
     margin-right: 30px;
 }
+
 .text-row{
     border: 2px solid #00b2dc;
     margin-top: 40px;
