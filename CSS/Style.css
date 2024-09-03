@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #000000;
+}
+#header{
+    background-color: #1B1B1B;
+    width: 80%;
+    display: flex;
+    border-radius: 10px;
+    justify-content:space-evenly;
+    margin: 0 ;
+}
+#header li a {
+    color: white;
+}
+.name{
+    width: 100%;
+}
+.div-center{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+/* #header li {
+    justify-content: space-around;
+} */
