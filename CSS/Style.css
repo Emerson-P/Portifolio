@@ -19,13 +19,16 @@ body{
 .name{
     width: 100%;
 }
-.div-center,.div-center-name{
+
+.div-center,.div-center-name,.div-center-sobre{
     display: flex;
     width: 100%;
     justify-content: center;
 }
+
 .div-center-name{
     margin-top: 20%;
+    margin-bottom: 23%;
 }
 .div-center-name h1{
     font-size: 70px;
@@ -37,6 +40,33 @@ body{
     border: 2px solid #00e6e4;
     border-radius: 5px;
 }
-/* #header li {
-    justify-content: space-around;
-} */
+
+.div-center-sobre{
+    width: 100%;
+}
+.div-center-sobre img{
+    height: 450px;
+    width: 550px;
+    border: 2px solid #96f7b1;
+    border-radius: 4px;
+}
+.div-sobre{
+    width: 70%;
+    display: flex;
+}
+.text-collum,.text-row{
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.text-collum{
+    border: 2px solid #ff864a;
+    margin-right: 30px;
+}
+.text-row{
+    border: 2px solid #00b2dc;
+    margin-top: 40px;
+}
