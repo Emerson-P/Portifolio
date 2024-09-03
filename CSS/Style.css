@@ -77,12 +77,41 @@ body{
 .containerProjetos{
     display:  flex;
     justify-content:space-around;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     padding: 30px;
 }
 .projeto{
-    border: 2px solid rgb(0, 255, 0);
+    /* border: 2px solid rgb(0, 255, 0); */
     width: 45%;
-    height: 30%;
+    height: 400px;
+    background-color: #00a5e5;
+    
+}
+.divRelative{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid salmon; */
+}
+
+.divRelative  img{
+    border: 4px;
+    height: 300px;
+    width: 95%;
+}
+.divRelative div {
+    position: absolute;
+    top:230px;
+    /* display: flex; */
+    justify-content: center;
+    padding: 30px 70px 0 70px;
+    /* border: 2px solid sienna; */
+    background-color: #00a5e5;
+    /* background-color: #000000; */
+}
+.nome-projeto{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
 }
