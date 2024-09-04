@@ -82,10 +82,9 @@ body{
     padding: 30px;
 }
 .projeto{
-    /* border: 2px solid rgb(0, 255, 0); */
     width: 45%;
-    height: 800px;
-    background-color:   #32CD32;
+    height: 770px;
+    background-color: #9eadbd;
     border-radius: 6px;
 }
 .divRelative{
@@ -104,25 +103,74 @@ body{
 .absolute{
     position: absolute;
     top:230px;
-    height: 400px;
     display: flex;
     flex-direction: column;
     background-color: #1B1B1B;
     opacity: 0.9;
+    border-radius: 0px 0px 20px 20px;
 }
 #infoPro{
     margin: 30px 50px 50px 30px;
 }
-.tecnologias {
-    border: 2px solid #00b2dc;
-    border-radius: 3px;
-    margin: 20px;
-}
-.tecnologias h5{
-    /* color: black; */
-}
+
+
+
 .nome-projeto{
     display: flex;
     margin: 20px;
     justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.tecnologias {
+    border: 2px solid #009cf8;
+    border-radius: 3px;
+    margin: 10px 0px 30px 0px;
+    padding: 5px;
+}
+
+
+.tecnologias .div-center {
+    padding-bottom: 10px;
+    margin: 5px 0px 10px 0px;
+    /* border-bottom:  2px dashed #e59d23; */
+}
+
+.container-skills{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 5px 20px 5px;
+    border: 2px solid red;
+}
+.nome-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    border: 2px solid blue;
+}
+.container-inter-skills {
+    
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.skill{
+
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    margin: 5px;
+    border: 2px solid greenyellow;
 }
