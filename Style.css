@@ -253,3 +253,29 @@ body{
     /* border: 2px solid gold; */
     height: 70%;
 }
+
+
+.soft-skills{
+    /* border: 2px solid greenyellow; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    padding: 20px;
+    width: 600px;
+    border: 2px solid #009cf8;
+}
+.titulo, .desc {
+    border-radius: 3px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.titulo{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.desc{
+    justify-content: center;
+    height: 400px;
+    padding: 20px;
+}
