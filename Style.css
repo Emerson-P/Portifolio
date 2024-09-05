@@ -6,9 +6,9 @@
 body{
     background-color: #000000;
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
 
 /* Barra de navegação */
@@ -197,4 +197,42 @@ body{
 .icone{
     border: none;
     background-color:#9eadbd;
+}
+
+
+/* projetos em trabalho */
+.div-center-traba{
+    margin-top: 10%;
+    margin-bottom: 8%;
+    display: flex;
+    justify-content: center;
+}
+.container-trab{
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+    border: 2px solid red;
+    width: 100%;
+    /* height: 500px; */
+}
+.pro-trab{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 2px solid green;
+    width: 40%;
+    height: 400px;
+}
+.trab-name, .trab-desc{
+    display: flex;
+    justify-content: center;
+}
+.trab-name{
+    border: 2px solid salmon;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.trab-desc{
+    padding: 20px;
+    border: 2px solid gold;
+    height: 70%;
 }
