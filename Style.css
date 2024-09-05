@@ -74,6 +74,16 @@ body{
     margin-top: 40px;
 }
 
+
+
+
+
+
+
+
+
+
+
 .containerProjetos{
     display:  flex;
     justify-content:space-around;
@@ -83,7 +93,7 @@ body{
 }
 .projeto{
     width: 45%;
-    height: 770px;
+    height: 830px;
     background-color: #9eadbd;
     border-radius: 6px;
 }
@@ -175,20 +185,16 @@ body{
     border: 2px solid greenyellow;
 }
 
-#exampleModal{
+.modal-content{
+    background-color: #1B1B1B;
+}
+.icones-links{
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
+    margin-top:375px;
+    /* border: 2px solid red; */
 }
-
-.modal-dialog{
-    /* display: flex; */
-    /* justify-content: center; */
-    padding: 0;
-    margin: 40px 0px 0px 80px ;
-}
-#modal-projeto{
-    /* display: flex; */
-    height: 50%;
-    width: 1200px;
-    border: 2px solid gold;
+.icone{
+    border: none;
+    background-color:#9eadbd;
 }
