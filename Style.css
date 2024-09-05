@@ -1,3 +1,4 @@
+/* Geral */
 *{
     margin: 0px;
     padding: 0px;
@@ -7,7 +8,10 @@ body{
 }
 ::-webkit-scrollbar {
     display: none;
-    }
+}
+
+
+/* Barra de navegação */
 #header{
     background-color: #1B1B1B;
     width: 80%;
@@ -19,10 +23,12 @@ body{
 #header li a, h1,h2,h3,h4,h5{
     color: white;
 }
+
+
+/*  Nome e divs*/
 .name{
     width: 100%;
 }
-
 .div-center,.div-center-name,.div-center-sobre{
     display: flex;
     width: 100%;
@@ -44,6 +50,8 @@ body{
     border-radius: 5px;
 }
 
+
+/* Sobre */
 .div-center-sobre{
     width: 100%;
 }
@@ -77,13 +85,7 @@ body{
 
 
 
-
-
-
-
-
-
-
+/* Projetos */
 .containerProjetos{
     display:  flex;
     justify-content:space-around;
@@ -123,8 +125,6 @@ body{
     margin: 30px 50px 50px 30px;
 }
 
-
-
 .nome-projeto{
     display: flex;
     margin: 20px;
@@ -134,11 +134,7 @@ body{
 
 
 
-
-
-
-
-
+/* Habilidades */
 .tecnologias {
     border: 2px solid #009cf8;
     border-radius: 3px;
@@ -185,9 +181,13 @@ body{
     border: 2px solid greenyellow;
 }
 
+
+/* Modal */
 .modal-content{
     background-color: #1B1B1B;
 }
+
+/* icones */
 .icones-links{
     display: flex;
     justify-content:space-around;
