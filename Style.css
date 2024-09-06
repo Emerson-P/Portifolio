@@ -255,13 +255,13 @@ body{
 }
 
 
-.soft-skills{
+.container-soft-skill{
     /* border: 2px solid greenyellow; */
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-.skill{
+.soft-skill{
     padding: 20px;
     width: 600px;
     border: 2px solid #009cf8;
