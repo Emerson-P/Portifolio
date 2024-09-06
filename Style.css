@@ -173,7 +173,7 @@ body{
     flex-wrap: wrap;
 }
 .skill{
-
+    
     text-align: center;
     border-radius: 10px;
     padding: 5px 15px 5px 15px;
@@ -278,4 +278,39 @@ body{
     justify-content: center;
     height: 400px;
     padding: 20px;
+}
+
+
+.container-hard-skill{
+    display: flex;
+    /* justify-content:; */
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid blueviolet;
+}
+.container-hard{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    border: 2px solid gold;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.skill-tipo{
+    border: 2px solid blue;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-nome{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border: 2px solid gray;
+    width: 100%;
+    flex-direction: row;
 }
