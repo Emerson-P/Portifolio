@@ -93,100 +93,60 @@ body{
 
 
 /* Projetos */
-.containerProjetos{
-    display:  flex;
-    justify-content:space-around;
-    /* border: 2px solid red; */
-    width: 100%;
+
+.container-projetos{
+    display: flex;
+    justify-content: center;
+    border: 2px solid salmon;
     padding: 30px;
 }
-.projeto{
-    width: 45%;
-    height: 830px;
-    background-color: #FDCA40;
-    border-radius: 10px;
-}
-.divRelative{
-    position: relative;
+.left-projeto, .right-projeto {
+    width: 90%;
+    height: 100%;
     display: flex;
-    justify-content: center;
-    /* border: 2px solid salmon; */
+    flex-direction: row;
+    border: 2px solid rebeccapurple;
+}
+.left-projeto img , .right-projeto img {
+   width: 400px;
+   height: 400px;
 }
 
-.divRelative  img{
-    border: 4px;
-    height: 300px;
-    width: 95%;
-    border-radius: 30px;
-}
-.absolute{
-    position: absolute;
-    top:230px;
+.container-texto-projeto {
     display: flex;
     flex-direction: column;
-    background-color: #0B0E18;
-    opacity: 0.9;
-    border-radius: 0px 0px 20px 20px;
-}
-#infoPro{
-    margin: 30px 50px 50px 30px;
+    justify-content: space-between;
+    border: 2px solid greenyellow;
+    padding: 20px;
 }
 
-.nome-projeto{
-    display: flex;
-    margin: 20px;
-    justify-content: center;
+.container-skill{
+    /* height: 60%; */
+    border: 2px solid white;
 }
 
 
-
-
-/* Habilidades */
-.tecnologias {
-    border: 5px solid #162752;
-    border-radius: 8px;
-    margin: 10px 0px 30px 0px;
-    padding: 5px;
+.skill img, .btn-info img {
+    height: 30px;
+    width: 30px;
+    background-color: white;
 }
 
 
-.tecnologias .div-center {
-    padding-bottom: 10px;
-    margin: 5px 0px 10px 0px;
-    /* border-bottom:  2px dashed #e59d23; */
-}
-
-.container-skills{
-    display: flex;
-    flex-direction: row;
-    margin: 10px 5px 20px 5px;
-    /* border: 2px solid red; */
-}
-.nome-skill{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 150px;
-    /* border: 2px solid blue; */
-}
-.container-inter-skills {
-    
-    margin: 10px;
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
 .skill{
-    
-    text-align: center;
-    border-radius: 10px;
-    padding: 5px 15px 5px 15px;
-    margin: 5px;
-    border: 2px solid #3772FF;
+    border: 2px solid yellow;
 }
+.container-info{
+    /* position: absolute; */
+    /* bottom: 0; */
+    border: 2px solid orange;
+}
+.btn-info{
+    border: 2px solid darkblue;
+}
+
+
+
 
 
 /* Modal */
