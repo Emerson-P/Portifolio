@@ -6,9 +6,9 @@
 body{
     background-color: #080708;
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
 
 /* Alterações visuais gerais */
@@ -301,10 +301,10 @@ body{
     box-shadow: #3772FF 0px 54px 55px, #3772FF 0px -12px 30px, #3772FF 0px 4px 6px, #3772FF 0px 12px 13px, #3772FF 0px -3px 5px;
 }
 .div-skill{
+    
     display: flex;
     text-align: center;
     flex-direction: column;
-   justify-content: center;
     width: 60%;
 }
 .div-tipo-skill{
@@ -315,8 +315,8 @@ body{
 
 .div-tipo-skill img{
     /* background-color: white; */
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
 .div-nome-skill{
     display: flex;
@@ -333,8 +333,8 @@ body{
     width: 70%;
     margin-top: 30px;
     justify-content: center;
+    align-items: center;
     padding: 10px;
-    display: flex;
     flex-direction: row;
     background-color: #10182D;
     border-radius: 20px;
@@ -342,10 +342,8 @@ body{
 }
 .nome-img img {
     margin-right: 20px;
-    background-color: white;
-    width: 30px;
-    height: 30px;
-    border: 2px solid white;
+    width: 35px;
+    height: 35px;
 }
 
 
@@ -360,15 +358,16 @@ body{
     background-color: #0B0E18;
 }
 .contato{
+    cursor: pointer;
     border-radius: 100%;
     background-color: #E6E8E6;
     padding: 10px 10px 5px 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .contato img {
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
 }
 
 
