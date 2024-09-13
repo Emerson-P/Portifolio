@@ -6,9 +6,9 @@
 body{
     background-color: #080708;
 }
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
-} */
+}
 
 
 /* Alterações visuais gerais */
@@ -187,6 +187,7 @@ body{
 .container-info{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .btn-info{
     background-color: #E6E8E6;
@@ -282,6 +283,10 @@ body{
     margin-bottom: 20px;
     padding-bottom: 20px;
     width: 100%;
+}
+.div-titulo img{
+    height: 70px;
+    width: 70px;
 }
 .div-desc{
     padding: 20px;
