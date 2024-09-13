@@ -143,7 +143,7 @@ body{
 .left-projeto img , .right-projeto img {
     border-radius: 10px;
    width: 350px;
-   height: 300px;
+   height: 330px;
 }
 
 .container-texto-projeto {
@@ -154,10 +154,13 @@ body{
 }
 
 .container-skill{
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-left: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
@@ -168,16 +171,18 @@ body{
 }
 
 .skill{
-    border: 2px solid #3265E1;
+    border: 2px solid #142246;
     display: flex;
     
     justify-content: center;
     padding: 5px 20px 5px 20px ;
     display: flex;
     flex-direction: row;
-    background-color: #3265E1;
+
+    background-color: #142246;
+    align-items: center;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: #2C58C2 0px 14px 28px, #2C58C2 0px 10px 10px;
 }
 .container-info{
     display: flex;

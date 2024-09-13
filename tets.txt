@@ -1,0 +1,84 @@
+<div class="nome-img">
+            <img src="/imgs/php.png" alt="">
+            <h3>PHP</h3>
+          </div>
+          <div class="nome-img">
+            <img src="/imgs/java.png" alt="">
+            <h3>Java</h3>
+          </div>
+          <div class="nome-img">
+            <img src="/imgs/Laravel.png" alt="">
+            <h3>Laravel</h3>
+          </div>
+          <div class="nome-img">
+            <img src="/imgs/python.png" alt="">
+            <h3>Python</h3>
+          </div>
+          <div class="nome-img">
+            <img src="/imgs/mysql.png" alt="">
+            <h3>MySQL</h3>
+          </div>
+
+          <div class="nome-img">
+            <img src="/imgs/nodejs.png" alt="">
+            <h3>NodeJs</h3>
+          </div>
+
+          <div class="nome-img">
+            <img src="/imgs/devicon--composer.png" style="background-color: white;" alt="">
+            <h3>Composer</h3>
+          </div>
+         
+         
+          <div class="nome-img">
+            <img src="/imgs/bootstrap.png" alt="">
+            <h3>Bootstrap</h3>
+          </div>
+          <div class="nome-img">
+            <img src="/imgs/css-3.png" alt="">
+            <h3>CSS</h3>
+          </div>
+          <div class="nome-img">
+            <img src="/imgs/html-5.png" alt="">
+            <h3>Html</h3>
+          </div>
+          <div class="nome-img">
+            <img src="/imgs/js.png" alt="">
+            <h3>JavaScript</h3>
+          </div>
+
+          <div class="nome-img">
+            <img src="/imgs/file-icons--ejs.png" alt="">
+            <h3>EJS</h3>
+          </div>
+          
+
+          <div class="div-nome-skill">
+          <div class="nome-img">
+            <img src="/imgs/api.png" alt="">
+            <h3>Api</h3>
+          </div>
+          <div class="nome-img">
+            <img src="/imgs/arquitetura.png" style="background-color: white" alt="">
+            <h3> MVC</h3>
+          </div>
+          <div class="nome-img">
+            <img src="/imgs/jwt.png" alt="">
+            <h3>JWT</h3>
+          </div>
+          <div class="nome-img">
+            <img src="/imgs/git.png" alt="">
+            <h3>GIT</h3>
+          </div>
+
+          <div class="nome-img">
+            <img src="/imgs/devicon--apache-wordmark.png"  alt="">
+            <h3>Apache</h3>
+          </div>
+         
+          <div class="nome-img">
+            <img src="/imgs/inteligencia-artificial.png" alt="">
+            <h3>IA</h3>
+          </div>
+         
+          
