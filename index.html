@@ -134,7 +134,8 @@
 
           <div class="container-info">
               
-            <button class="btn-info" > 
+            
+            <button class="btn-info" onclick="window.location.href='https://github.com/Emerson-P/FlashCards';"> 
               <img src="imgs/github.png" alt="">
               <h5>Ver codigo</h5>
             </button>
@@ -323,7 +324,7 @@
 
           <div class="container-info">
               
-            <button class="btn-info" > 
+            <button class="btn-info"  onclick="window.location.href='https://github.com/Emerson-P/Twitter_clone';" > 
               <img src="imgs/github.png" alt="">
               <h5>Ver codigo</h5>
             </button>
@@ -507,7 +508,7 @@
 
           <div class="container-info">
               
-            <button class="btn-info" > 
+            <button class="btn-info" onclick="window.location.href='https://github.com/Emerson-P/CGE-Notes';"> 
               <img src="imgs/github.png" alt="">
               <h5>Ver codigo</h5>
             </button>
@@ -1303,28 +1304,50 @@
   
 
    <div class="container-contatos" id="Contatos">
-    <div class="contato">
-      <h3>
+    <div class="contato" onclick="window.location.href='https://www.linkedin.com/in/emerson-pedrosa/';">
+     
         <img src="imgs/linkedin.png" alt="">
-      </h3>
-    </div>
-
-    <div class="contato">
-      <h3>
-        <img src="imgs/google.png" alt="">
-      </h3>
-    </div>
-
-    <div class="contato">
-      <h3>
-        <img src="imgs/github.png" alt="">
-      </h3>
+     
     </div>
 
    
+     
+      <button class="contato" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: 0px;">
+
+        <img src="imgs/google.png" alt="">
+        
+      </button>
+        
+     
+  
+
+    <div class="contato"  onclick="window.location.href='https://github.com/Emerson-P';">
+     
+        <img src="imgs/github.png" alt="">
+      
+    </div>
+
+ 
    </div>
-    
-    
+
+  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Email</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h4>emersonpedrosacontato@gmail.com</h4>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
