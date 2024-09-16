@@ -12,7 +12,6 @@ body{
     display: none;
 }
 
-
 /* Alterações visuais gerais */
 
 
@@ -216,6 +215,11 @@ body{
 .modal-content{
     background-color: #0B0E18;
 }
+
+.modal-body p{
+    padding: 5px;
+}
+
 
 /* icones */
 .icones-links{
