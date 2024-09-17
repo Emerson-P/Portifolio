@@ -1,4 +1,3 @@
-/* Geral */
 *{
     margin: 0px;
     padding: 0px;
@@ -13,8 +12,6 @@ body{
 }
 
 /* Alterações visuais gerais */
-
-
 .trab:hover, .nome-img:hover, .left-projeto:hover, .right-projeto:hover, .skill:hover, .div-dev:hover, .div-soft-skill:hover{
     transition: 310ms linear;
     transform: scale(1.05);
@@ -27,7 +24,6 @@ body{
 }
 .trab:hover{
     border: 4px solid #E6E8E6;
-
 }
 .nome-img:hover, .skill:hover, .nav-item:hover{
     border: 2px solid #E6E8E6;
@@ -35,8 +31,6 @@ body{
 .div-dev:hover{
     box-shadow: #3772FF 0px 30px 60px -12px inset, #3772FF 0px 18px 36px -18px inset;
 }
-
-
 
 /* Barra de navegação */
 #header{
@@ -67,7 +61,6 @@ body{
     width: 100%;
     justify-content: center;
 }
-
 .div-center-name{
     margin-top: 20%;
     margin-bottom: 21%;
@@ -75,7 +68,6 @@ body{
 .div-center-name h1{
     font-size: 70px;
 }
-
 .div-center-name div div{
     display: flex;
     justify-content: center;
@@ -83,14 +75,11 @@ body{
     border-radius: 5px;
 }
 
-
 /* Sobre */
-
 .container-sobre{
     background-color: #0E1527;
     padding: 50px;
 }
-
 .div-sobre{
     display: flex;
     flex-direction: row;
@@ -115,9 +104,7 @@ body{
     border-radius: 20px;
 }
 
-
 /* Projetos */
-
 .container-projetos{
     display: flex;
     justify-content: center;
@@ -130,34 +117,27 @@ body{
     height: 100%;
     display: flex;
     flex-direction: row;
-    /* border: 2px solid #203D84; */
     margin-bottom: 150px;
 }
 .left-projeto{
-    /* margin-right: 80px; */
     margin-left: 10px;
-   
     box-shadow: #3772ff 5px 5px,#00a3fe 10px 10px, #00c2de 15px 15px,  #9cd7cc 20px 20px, #e6e8e6 25px 25px;
 }
 .right-projeto{
     margin-left: 130px;
     box-shadow: #3772ff -5px 5px, #00a3fe -10px 10px, #00c2de  -15px 15px,  #9cd7cc  -20px 20px, #e6e8e6 -25px 25px;
 }
-
-
 .left-projeto img , .right-projeto img {
     border-radius: 10px;
    width: 350px;
    height: 330px;
 }
-
 .container-texto-projeto {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 }
-
 .container-skill{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -167,23 +147,17 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-
 .skill img, .btn-info img {
     height: 30px;
     width: 30px;
     margin-right: 15px;
 }
-
 .skill{
     border: 2px solid #142246;
     display: flex;
-    
     justify-content: center;
     padding: 5px 20px 5px 20px ;
-    display: flex;
     flex-direction: row;
-
     background-color: #142246;
     align-items: center;
     border-radius: 20px;
@@ -207,10 +181,6 @@ body{
     color: black;
 }
 
-
-
-
-
 /* Modal */
 .modal-content{
     background-color: #0B0E18;
@@ -220,19 +190,16 @@ body{
     padding: 5px;
 }
 
-
 /* icones */
 .icones-links{
     display: flex;
     justify-content:space-around;
     margin-top:375px;
-    /* border: 2px solid red; */
 }
 .icone{
     border: none;
     background-color: #FDCA40;
 }
-
 
 /* projetos em trabalho */
 .container-trab{
@@ -259,11 +226,7 @@ body{
     padding-top: 20px;
 }
 
-
-
-
-
-
+/* Container soft skill */
 .container-soft-skill{
     display: flex;
     flex-direction: column;
@@ -302,19 +265,13 @@ body{
     padding: 20px;
 }
 
-
-
-
-
-
+/* Container de hard skills */
 .container-hard-skill{
-    
     display: flex;
     width: 100%;
     justify-content: center;
     padding-top: 70px;
     padding-bottom: 70px;
-
 }
 .div-hard-skill, .div-mini-hard-skill{
     display: flex;
@@ -324,10 +281,7 @@ body{
     border-radius: 40px;
     box-shadow: #3772FF 0px 54px 55px, #3772FF 0px -12px 30px, #3772FF 0px 4px 6px, #3772FF 0px 12px 13px, #3772FF 0px -3px 5px;
 }
-
-
 .div-skill{
-    
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -338,9 +292,7 @@ body{
     border-bottom: 3px solid #FDCA40;
     box-shadow: 0px 10px 10px -10px #FDCA40;
 }
-
 .div-tipo-skill img{
-    /* background-color: white; */
     width: 50px;
     height: 50px;
 }
@@ -349,7 +301,6 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* border: 1px solid white; */
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -372,21 +323,15 @@ body{
     height: 35px;
 }
 
-
-
-
-
-
+/* Container skills da parte mais sobre em projetos */
 .div-mini-hard-skill{
     width: 70%;
-    /* box-shadow: #FABA3F 0px 20px 30px, #FABA3F 0px -12px 30px, #FABA3F 0px 4px 6px, #FABA3F 0px 12px 13px, #FABA3F 0px -3px 5px; */
     box-shadow: none;
 }
 .div-mini-hard-skill .div-tipo-skill{
     border-bottom: 3px solid #3772FF;
     box-shadow: 0px 10px 10px -10px #3772FF;
 }
-
 .div-mini-hard-skill h3 {
     font-size:larger;
 }
@@ -394,12 +339,7 @@ body{
     font-size:x-large;
 }
 
-
-
-
-
-
-
+/* Container contatos  */
 .container-contatos{
     display: flex;
     justify-content:space-around;
@@ -422,5 +362,3 @@ body{
     height: 40px;
     width: 40px;
 }
-
-
