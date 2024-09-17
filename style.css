@@ -185,7 +185,9 @@ body{
 .modal-content{
     background-color: #0B0E18;
 }
-
+.modal-content img {
+    width: 100%;
+}
 .modal-body p{
     padding: 5px;
 }
