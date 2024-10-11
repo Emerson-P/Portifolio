@@ -1,6 +1,6 @@
 <h1>🖥️ Portfólio - Emerson Pedrosa</h1>
 
-<p>Bem-vindo ao meu portfólio! Aqui você encontrará projetos nos quais trabalhei,  com foco em desenvolvimento back-end, utilizando diversas tecnologias como Java, Pyhton, Laravel e mais.</p>
+<p>Bem-vindo ao meu portfólio! Aqui você encontrará projetos nos quais trabalhei,  com foco em desenvolvimento back-end, utilizando diversas tecnologias como Java, Pyhton, PHP, nodejs e mais.</p>
 
 
 <h2>📄 Sobre Mim</h2>
