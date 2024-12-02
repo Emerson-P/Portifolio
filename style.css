@@ -12,6 +12,7 @@ body{
 }
 
 /* Alterações visuais gerais */
+
 .trab:hover, .nome-img:hover, .left-projeto:hover, .right-projeto:hover, .skill:hover, .div-dev:hover, .div-soft-skill:hover{
     transition: 310ms linear;
     transform: scale(1.05);
@@ -51,6 +52,7 @@ body{
 
 
 /*  Nome e divs*/
+
 .name{
     width: 100%;
 }
@@ -129,7 +131,6 @@ body{
 .div-sobre{
     display: flex;
     flex-direction: row;
-
 }
 .sobre-img img {
     height: 400px;
@@ -417,4 +418,99 @@ body{
 .contato img {
     height: 40px;
     width: 40px;
+}
+
+@media screen and (max-width: 400px) {
+  
+    
+
+/*  Nome e divs*/
+
+
+.div-center {
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+.div-center  h2 {
+    font-size: 20px;
+}
+
+.div-center-name h1{
+    font-size:35px;
+}
+
+
+#Colaborativos h2  {
+    padding: 0 0 20px 20px;
+    border-bottom: 3px solid #DF2935;
+    border-left: 3px solid #DF2935;
+    border-radius: 15px;
+}
+
+#sobre-mim h2 {
+    padding: 20px 0 20px 0px;
+    border-top: 3px solid #E6E8E6;
+    border-bottom: 3px solid #E6E8E6;
+    border-radius: 15px;
+}
+
+#outros-projetos h2 {
+    padding: 0px 20px 20px 0px;
+    border-right: 3px solid #3772FF;
+    border-bottom: 3px solid #3772FF;
+    border-radius: 15px;
+}
+
+#andamento h2 {
+    padding: 0px 0px 20px 0px;
+    border-bottom: 3px solid #EE7A3B;
+    border-radius: 30px;
+}
+
+#Comportamentais h2 {
+    padding: 20px 0px 0px 0px;
+    border-top: 5px solid #FDCA40;
+    border-radius: 50px;
+}
+
+#tecnicas h2 {
+    padding: 0px 20px 0px 20px;
+    border-right: 5px solid #3772FF;
+    border-left: 5px solid #3772FF;
+    border-radius: 20px;    
+}
+
+h4 {
+    font-size: 15px;
+}
+
+
+/* Sobre */
+.container-sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaço entre os blocos */
+    margin: 20px;
+    align-items: center;
+  }
+  
+  .div-sobre {
+    display: flex;
+    flex-wrap: wrap; /* Torna o layout responsivo */
+    align-items: center;
+    flex-direction:column-reverse;
+    gap: 20px; /* Espaço entre texto e imagem */
+    width: 300px;
+
+  }
+  
+  .div-texto-sobre {
+    flex: 1; /* O texto ocupa o espaço restante */
+    text-align: justify; /* Justifica o texto */
+  }
+  .sobre-img img {
+    margin-top: 20px;
+    width: 290px;
+    height: 200px;
+  }
 }
