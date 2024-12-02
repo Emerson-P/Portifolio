@@ -61,6 +61,13 @@ body{
     width: 100%;
     justify-content: center;
 }
+.div-center {
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+.div-center  h2 {
+    font-size: 50px;
+}
 .div-center-name{
     margin-top: 20%;
     margin-bottom: 21%;
@@ -75,6 +82,45 @@ body{
     border-radius: 5px;
 }
 
+#Colaborativos h2  {
+    padding: 0 0 40px 40px;
+    border-bottom: 5px solid #DF2935;
+    border-left: 5px solid #DF2935;
+    border-radius: 15px;
+}
+
+#sobre-mim h2 {
+    padding: 40px 0 40px 0px;
+    border-top: 5px solid #E6E8E6;
+    border-bottom: 5px solid #E6E8E6;
+    border-radius: 15px;
+}
+
+#outros-projetos h2 {
+    padding: 0px 40px 40px 0px;
+    border-right: 5px solid #3772FF;
+    border-bottom: 5px solid #3772FF;
+    border-radius: 15px;
+}
+
+#andamento h2 {
+    padding: 0px 0px 40px 0px;
+    border-bottom: 5px solid #EE7A3B;
+    border-radius: 30px;
+}
+
+#Comportamentais h2 {
+    padding: 40px 0px 0px 0px;
+    border-top: 5px solid #FDCA40;
+    border-radius: 50px;
+}
+
+#tecnicas h2 {
+    padding: 0px 40px 0px 40px;
+    border-right: 5px solid #3772FF;
+    border-left: 5px solid #3772FF;
+    border-radius: 20px;    
+}
 /* Sobre */
 .container-sobre{
     background-color: #0E1527;
@@ -204,7 +250,7 @@ body{
 }
 
 /* projetos em trabalho */
-.container-trab{
+.container-trab, .container-trab-col{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -212,18 +258,24 @@ body{
     padding-bottom: 50px;
     background-color: #EE7A3B;
 }
+
+.container-trab-col{
+    background-color: #DF2935;
+}
 .trab{
     border: 4px solid;
     border-radius: 30px;
-    background-color: #0E1527;;
-    padding: 20px;
-    width: 40%;
+    background-color: #0E1527;
+    padding: 30px;
+    width: 60%;
+    height: 500px;
 }
 .info-trab{
     box-shadow: 0px 10px 10px -10px #FDCA40;
     border-bottom: 4px solid #FDCA40;
     padding-bottom: 20px;
 }
+
 .desc-trab{
     padding-top: 20px;
 }
@@ -249,6 +301,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    height: 50%;
 }
 .div-titulo{
     padding: 20px;
@@ -258,6 +311,7 @@ body{
     margin-bottom: 20px;
     padding-bottom: 20px;
     width: 100%;
+    height: 150px;
 }
 .div-titulo img{
     height: 70px;
