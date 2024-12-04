@@ -699,37 +699,25 @@ h3{
 
 
 .container-hard-skill {
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
     padding: 20px;
-    width: 100%;
   }
-
-
-  
   
   .div-hard-skill {
-    display: flex;
     flex-direction: column;
     padding: 20px;
     width: 100%;
   }
   
-
   .div-skill {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
   
-
   .div-tipo-skill {
     text-align: center;
     margin-bottom: 20px;
@@ -752,18 +740,14 @@ h3{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 15px;
-    justify-items: center;
     width: 100%;
   }
   .nome-img {
-    display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
-    text-align: center;
   }
   
   .nome-img img {
+    margin-right: 0px;
     max-width: 50px;
     height: auto; 
     margin-bottom: 5px; 
