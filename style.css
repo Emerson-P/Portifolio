@@ -3,9 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
-
-
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #080708;
@@ -16,9 +13,7 @@ body{
 ::-webkit-scrollbar {
     display: none;
 }
-
 /* Alterações visuais gerais */
-
 .trab:hover, .nome-img:hover, .left-projeto:hover, .right-projeto:hover, .skill:hover, .div-dev:hover, .div-soft-skill:hover{
     transition: 310ms linear;
     transform: scale(1.05);
@@ -38,7 +33,6 @@ body{
 .div-dev:hover{
     box-shadow: #3772FF 0px 30px 60px -12px inset, #3772FF 0px 18px 36px -18px inset;
 }
-
 /* Barra de navegação */
 #header{
     background-color: #0B0E18;
@@ -50,21 +44,15 @@ body{
 }
 #header li a, h1,h2,h3,h4,h5{
     color: white;
-    
 }
-
 #header a {
     border-bottom: 1px solid #0000EE;
 }
-
 .nav-item{
     border: 2px solid #0B0E18;
     border-radius: 5px;
 }
-
-
 /*  Nome e divs*/
-
 .name{
     width: 100%;
 }
@@ -95,28 +83,24 @@ body{
     border: 2px solid #3772FF;
     border-radius: 5px;
 }
-
 #Colaborativos h2  {
     padding: 0 0 40px 40px;
     border-bottom: 5px solid #DF2935;
     border-left: 5px solid #DF2935;
     border-radius: 15px;
 }
-
 #sobre-mim h2 {
     padding: 40px 0 40px 0px;
     border-top: 5px solid #E6E8E6;
     border-bottom: 5px solid #E6E8E6;
     border-radius: 15px;
 }
-
 #outros-projetos h2 {
     padding: 0px 40px 40px 0px;
     border-right: 5px solid #3772FF;
     border-bottom: 5px solid #3772FF;
     border-radius: 15px;
 }
-
 #andamento h2 {
     padding: 0px 0px 40px 0px;
     border-bottom: 5px solid #EE7A3B;
@@ -128,7 +112,6 @@ body{
     border-top: 5px solid #FDCA40;
     border-radius: 50px;
 }
-
 #tecnicas h2 {
     padding: 0px 40px 0px 40px;
     border-right: 5px solid #3772FF;
@@ -162,7 +145,6 @@ body{
     border-top: 2px solid #E6E8E6;
     border-radius: 20px;
 }
-
 /* Projetos */
 .container-projetos{
     display: flex;
@@ -195,7 +177,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 .container-skill{
     margin-top: 10px;
@@ -239,7 +220,6 @@ body{
 .btn-info h5 {
     color: black;
 }
-
 /* Modal */
 .modal-content{
     background-color: #0B0E18;
@@ -250,7 +230,6 @@ body{
 .modal-body p{
     padding: 5px;
 }
-
 /* icones */
 .icones-links{
     display: flex;
@@ -261,7 +240,6 @@ body{
     border: none;
     background-color: #FDCA40;
 }
-
 /* projetos em trabalho e colaborativos */
 .container-trab, .container-trab-col{
     display: flex;
@@ -287,11 +265,9 @@ body{
     border-bottom: 4px solid #FDCA40;
     padding-bottom: 20px;
 }
-
 .desc-trab{
     padding-top: 20px;
 }
-
 /* Container soft skill */
 .container-soft-skill{
     display: flex;
@@ -332,7 +308,6 @@ body{
 .div-desc{
     padding: 20px;
 }
-
 /* Container de hard skills */
 .container-hard-skill{
     display: flex;
@@ -341,11 +316,9 @@ body{
     padding-top: 70px;
     padding-bottom: 70px;
 }
-
 #meio-div-skill-hard{
     border-left: 4px solid #3772FF;border-right: 4px solid #3772FF
 }
-
 .div-hard-skill, .div-mini-hard-skill{
     display: flex;
     flex-direction: row;
@@ -395,7 +368,6 @@ body{
     width: 35px;
     height: 35px;
 }
-
 /* Container skills da parte mais sobre em projetos */
 .div-mini-hard-skill{
     width: 70%;
@@ -411,13 +383,11 @@ body{
 .div-mini-hard-skill h2{
     font-size:x-large;
 }
-
 /* Container contatos  */
 .container-contatos{
     display: flex;
     justify-content:space-around;
     margin-top: 20%;
-    /* border: 2px solid red; */
     background-color: #0B0E18;
 }
 .contato{
@@ -436,14 +406,8 @@ body{
     height: 40px;
     width: 40px;
 }
-
 @media screen and (max-width: 800px) {
-  
-    
-
 /*  Nome e divs*/
-
-
 .div-center {
     
     margin-top: 40%;
@@ -452,52 +416,43 @@ body{
 .div-center  h2 {
     font-size: 20px;
 }
-
 .div-center-name h1{
     font-size:35px;
 }
-
-
 #Colaborativos h2  {
     padding: 0 0 20px 20px;
     border-bottom: 3px solid #DF2935;
     border-left: 3px solid #DF2935;
     border-radius: 15px;
 }
-
 #sobre-mim h2 {
     padding: 20px 0 20px 0px;
     border-top: 3px solid #E6E8E6;
     border-bottom: 3px solid #E6E8E6;
     border-radius: 15px;
 }
-
 #outros-projetos h2 {
     padding: 0px 20px 20px 0px;
     border-right: 3px solid #3772FF;
     border-bottom: 3px solid #3772FF;
     border-radius: 15px;
 }
-
 #andamento h2 {
     padding: 0px 0px 20px 0px;
     border-bottom: 3px solid #EE7A3B;
     border-radius: 30px;
 }
-
 #Comportamentais h2 {
     padding: 20px 0px 0px 0px;
     border-top: 5px solid #FDCA40;
     border-radius: 50px;
 }
-
 #tecnicas h2 {
     padding: 0px 20px 0px 20px;
     border-right: 5px solid #3772FF;
     border-left: 5px solid #3772FF;
     border-radius: 20px;    
 }
-
 h4 {
     font-size: 16px;
     line-height: 20px;
@@ -512,41 +467,32 @@ h2 {
 h3{
     font-size: 13px;
 }
-
-
 /* Sobre */
-.container-sobre {
+    .container-sobre {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Espaço entre os blocos */
+    gap: 20px; 
     margin: 20px;
     align-items: center;
-  }
-  
+    }
   .div-sobre {
     display: flex;
-    flex-wrap: wrap; /* Torna o layout responsivo */
+    flex-wrap: wrap;
     align-items: center;
     flex-direction:column-reverse;
-    gap: 20px; /* Espaço entre texto e imagem */
+    gap: 20px; 
     width: 300px;
-
   }
-  
   .div-texto-sobre {
-    flex: 1; /* O texto ocupa o espaço restante */
-    text-align: justify; /* Justifica o texto */
+    flex: 1; 
+    text-align: justify; 
   }
   .sobre-img img {
     margin-top: 20px;
     width: 290px;
     height: 200px;
   }
-
-
-  
     /* projetos em trabalho */
-
     .container-trab, .container-trab-col{
         display: flex;
         flex-wrap: wrap;
@@ -555,7 +501,6 @@ h3{
         padding-bottom: 50px;
         background-color: #EE7A3B;
     }
-
     .container-trab-col{
         background-color: #DF2935;
     }
@@ -570,15 +515,10 @@ h3{
         border-bottom: 4px solid #FDCA40;
         padding-bottom: 20px;
     }
-
     .desc-trab{
         padding-top: 20px;
     }
-
-
     /* Container projetos */
-
-
     .container-projetos{
         display: flex;
         justify-content:flex-start;
@@ -654,9 +594,7 @@ h3{
     .btn-info h5 {
         color: black;
     }
-
     /* Soft Skill */
-
     .container-soft-skill{
         display: flex;
         flex-direction: column;
@@ -697,13 +635,7 @@ h3{
     .div-desc{
         padding: 20px;
     }
-
-
-
-    
 /* Container de hard skills */
-
-
 .container-hard-skill {
     flex-direction: column;
     justify-content: flex-start;
@@ -711,39 +643,30 @@ h3{
     gap: 20px;
     padding: 20px;
   }
-  
   .div-hard-skill,.div-mini-hard-skill {
     flex-direction: column;
     padding: 20px;
     width: 100%;
   }
-  
-
   .div-skill {
     align-items: center;
     padding: 20px;
     width: 100%;
   }
-  
-
   .div-tipo-skill {
     text-align: center;
     margin-bottom: 10px;
   }
-  
   .div-tipo-skill img {
     max-width: 80px;
     height: auto;
     margin-bottom: 10px;
   }
-  
   .div-tipo-skill h2 {
     font-size: 1.5rem;
     color: #3772FF;
     font-weight: bold;
   }
-  
-  
   .div-nome-skill {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -752,35 +675,25 @@ h3{
     width: 100%;
   }
   .nome-img {
-  
     flex-direction: column;
-   
   }
-  
   .nome-img img {
     margin-right: 0px;
     max-width: 50px;
     height: auto; 
     margin-bottom: 5px; 
   }
-
-
   .nome-img h3 {
     font-size: 0.80rem;
     text-align: center;
     margin: 0;
   }
-  
-
   #meio-div-skill-hard{
     border-top: 4px solid #FDCA40;
     border-bottom: 4px solid #FDCA40;
     border-left: 0px ;
     border-right: 0px
   }
-
-
-
     /* Container skills da parte mais sobre em projetos */
     .div-mini-hard-skill{
         width: 90%;
@@ -796,4 +709,5 @@ h3{
     .div-mini-hard-skill h2{
         font-size: 20px;
     }
+    
 }
